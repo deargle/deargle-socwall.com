@@ -1,0 +1,6 @@
+.form #registerPassword-tip.formTip .tipContent {
+    padding: 0;
+}
+.form #registerPassword-tip.formTip .tipContent #pssResults {
+    border-top-left-radius: 0px;
+}
