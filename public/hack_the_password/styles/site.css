@@ -1,0 +1,117 @@
+body {
+    padding: 3em 4em;
+}
+
+.formTip {
+    max-width: 440px !important;
+}
+
+#passwordAnalyzer .formControl {
+    display: none;
+}
+#passwordAnalyzer iframe {
+    display: none;
+}
+
+.passwordStrengthBarWrapper {
+    width: 248px;
+    height: 18px;
+    border: 2px solid #666;
+    margin-bottom: .5em;
+}
+.passwordStrengthBar {
+    width: 0px;
+    height: 18px;
+    background: red;
+}
+
+.susceptibility {
+    padding: 0 0 0 42px;
+    margin: 0 0 2px 0;
+    min-height: 42px;
+    background: url(/images/icons/32-susceptibility.png) 0 0 no-repeat;
+}
+    .susceptibilityHeader p {
+        font-size: 1em !important;
+        font-weight: bold !important;
+        margin: 0 0 .5em 0 !important;
+    }
+
+.severity {
+    padding: 0 0 0 42px;
+    margin: 0 0 2px 0;
+    min-height: 42px;
+    background: url(/images/icons/32-severity.png) 0 0 no-repeat;
+}
+
+.selfEfficacy {
+    padding: 0 0 0 42px;
+    margin: 0 0 2px 0;
+    min-height: 42px;
+    background: url(/images/icons/32-self-efficacy.png) 0 0 no-repeat;
+}
+
+    .selfEfficacy ul {
+        list-style: none;
+        margin: 0;
+    }
+    .selfEfficacy ul li {
+        padding: 0 0 0 32px;
+    }
+    .selfEfficacy ul li.checked {
+        background: url(/images/icons/checkbox-checked.png) 7px 7px no-repeat;
+    }
+    .selfEfficacy ul li.unchecked {
+        background: url(/images/icons/checkbox-unchecked.png) 7px 7px no-repeat;
+    }
+    .selfEfficacy ul li.speechBubble {
+        background: url(/images/icons/25-speech-bubble.png) 0 0 no-repeat;
+    }
+
+    /*
+    .selfEfficacy ul.static {
+        list-style: disc;
+    }
+        .selfEfficacy ul.static li {
+            margin: 0 0 0 1.5em;
+            padding: 0;
+        }
+    */
+.responseEfficacy {
+    padding: 0 0 0 42px;
+    margin: 0 0 2px 0;
+    min-height: 42px;
+    background: url(/images/icons/32-response-efficacy.png) 0 0 no-repeat;
+}
+
+.passwordStrength, .timeToCrack {
+    font-weight: bold;
+}
+
+.analyzing {
+    padding: 0 0 0 26px;
+    background: url(/images/animations/ajax-loader.gif) 0 0 no-repeat;
+}
+
+.veryInsecure {
+    color: #FF4F4F;
+}
+.insecure {
+    color: #FFD13A;
+}
+.fairlySecure {
+    color: #FFF83A;
+}
+.secure {
+    color: #3AFF3D;
+}
+.verySecure {
+    color: #3A93FF;
+}
+
+.favicons {
+    display: block;
+    width: 140px;
+    height: 16px;
+    background: url(/images/icons/favicons.png) 0 0 no-repeat;
+}
