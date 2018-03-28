@@ -115,6 +115,7 @@ $app->group('/api', function() use ($app) {
         if (getenv('API-ENDPOINT')) {
             $api_endpoint = getenv('API-ENDPOINT');
         }
+        $password = urlencode($password);
         $url = $api_endpoint . "/index.php?password={$password}&tipType={$tipType}";
 
         $ch = curl_init($url);
