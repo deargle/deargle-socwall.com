@@ -137,7 +137,7 @@ $app->group('/api', function() use ($app) {
     
 });
 
-$app->get('/user/register(/:treatment)', function($treatment = null) use ($app, $allowed_treatments) {
+$app->get('/user/register/(:treatment)', function($treatment = null) use ($app, $allowed_treatments) {
     
     // if it is passed in, override the randomly-set treatment. For testing
     if ($treatment && !in_array($treatment, $allowed_treatments)){
