@@ -1,6 +1,22 @@
+.formPageWrapper {
+    height:auto !important;
+}
+.form #registerPassword-tip.formTip {
+    position: static;
+    display: block !important;
+}
 .form #registerPassword-tip.formTip .tipContent {
     padding: 0;
+    border-top-left-radius: 5px;
+    border: inherit;
+    position: static;
+    margin-top:8px;
 }
 .form #registerPassword-tip.formTip .tipContent #pssResults {
-    border-top-left-radius: 0px;
+    /* border-top-left-radius: 0px; */
+    display:none;
+}
+
+.form #registerPassword-tip .tipArrow {
+    display: none;
 }

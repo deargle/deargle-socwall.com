@@ -44,6 +44,17 @@
         </script>
         <script src="/hack_the_password/scripts/PasswordSecurityStudy-socwall.js" type="text/javascript" language="javascript"></script>
         <link href='/styles/overrides.css' rel='stylesheet' type='text/css' />
+        <style>
+        {% if (treatment.type == 'staticText') %}
+            .form #registerPassword-tip.formTip {
+                display: block !important;
+            }
+            .form #registerPassword-tip.formTip .tipContent #pssResults {
+                /* border-top-left-radius: 0px; */
+                display:block !important;
+            }
+        {% endif %}
+        </style>
     </head>
     <body>
         <div id="headerWrapper">
