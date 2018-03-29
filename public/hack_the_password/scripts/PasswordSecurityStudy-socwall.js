@@ -80,9 +80,11 @@ var PasswordSecurityStudy = Class.extend({
                     ');
                 }
                 else {
+                    tipContent.hide();
                     tipContent.append('\
                         <div class="text"><p class="analyzing">Analyzing...</p></div>\
-                    ');    
+                    ');
+                    tipContent.slideDown('fast');
                 }
                 
             //registerObject.adjustHeight();
@@ -196,7 +198,9 @@ var PasswordSecurityStudy = Class.extend({
                                 }
                                 else if(data.response.text != null) {
                                     //console.log(data.response.text);
+                                    tipContent.hide();
                                     tipContent.find('.text').html(data.response.text);
+                                    tipContent.slideDown('fast');
                                 }
                             }
 
