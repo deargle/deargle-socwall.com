@@ -1,4 +1,6 @@
-# socwall.com
+# interactive-fear-appeals-socwall.com
+
+_Parf of the Interactive Fear Appeals project_
 
 Hosted on heroku at https://socwall.herokuapp.com
 
